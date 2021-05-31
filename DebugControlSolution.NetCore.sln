@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.381
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C26B5475-7C33-4841-9968-1DEB7D94D42F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".net Core3 _5 not working", ".net Core3 _5 not working", "{5E4AD99F-2677-4FA2-873B-8C3F7A529BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".net 4.8 Framework working", ".net 4.8 Framework working", "{F66D95CC-B715-4FB1-84E9-E09BE4084AED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebugControlLibrary.Core", ".net Core\DebugControl\DebugControlLibrary.Core.csproj", "{685EBEBE-BDE1-42F1-8638-04524FC8F721}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebuggingExample.FormApp", ".net Core\DebuggingExample\DebuggingExample.FormApp.csproj", "{443429F3-CEC9-4113-8D2D-74BA4F6E1303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{685EBEBE-BDE1-42F1-8638-04524FC8F721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685EBEBE-BDE1-42F1-8638-04524FC8F721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685EBEBE-BDE1-42F1-8638-04524FC8F721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685EBEBE-BDE1-42F1-8638-04524FC8F721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443429F3-CEC9-4113-8D2D-74BA4F6E1303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443429F3-CEC9-4113-8D2D-74BA4F6E1303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443429F3-CEC9-4113-8D2D-74BA4F6E1303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443429F3-CEC9-4113-8D2D-74BA4F6E1303}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C78EDEB-47B1-4FFB-91BC-2E8C23FD16B2}
+	EndGlobalSection
+EndGlobal
