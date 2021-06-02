@@ -15,5 +15,5 @@ Here everything is the same:same IDE, Symbols set to "Load all modules, unless e
 As you may know, debugging a Standard Library is quite different than for a Winform UserControl. Per the above article from Microsoft you debug a UserControl at Design time by setting debug properties to launch an executable 
 and give the path to Devenv.exe.
 
-I'm currently unable to accomplish this currently in either vs2019 16.10.0 or vs2019 16.11.0.preview 1.0.
+I'm unable to accomplish this in either vs2019 16.10.0 or vs2019 16.11.0.preview 1.0.
 
