@@ -1,3 +1,11 @@
+Disregard the Info Below, turns out undocumented for ,Net Core + you have to per this note :
+
+https://github.com/dotnet/winforms/discussions/4894
+The issue is that your control designer runs a different process than devenv.exe because it needs to run on .NET Core, while Visual Studio runs on .NET Framework. To debug, do exactly as you did below. However, before adding your control from the designer, attach to the "DesignToolsServer.exe" process from the instance of Visual Studio that is doing the debugging.
+
+*********************************************************************************************************************************************************************
+
+
 Per this link for debugging a custom Winforms Control for .net Framework 4.8:
 [Walkthrough: Debug Custom Windows Forms Controls at Design Time](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time?view=netframeworkdesktop-4.8).
 
